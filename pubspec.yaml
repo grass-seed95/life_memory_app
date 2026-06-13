@@ -1,0 +1,54 @@
+name: life_memory_app
+description: 生活记忆管家 - 照片管理、日子提醒、穿搭规划
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+  flutter: ^3.22.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 状态管理
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  # 数据库
+  drift: ^2.16.0
+  sqlite3_flutter_libs: ^0.5.21
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  # 路由
+  go_router: ^14.1.0
+  # 相册访问
+  photo_manager: ^3.1.2
+  # 图片选择（拍照）
+  image_picker: ^1.0.7
+  # 图片处理
+  image: ^4.2.0
+  # 时区
+  timezone: ^0.9.3
+  # 本地通知
+  flutter_local_notifications: ^17.2.0
+  # 农历
+  lunar: ^1.6.0
+  # 工具
+  intl: ^0.19.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # 代码生成
+  build_runner: ^2.4.9
+  drift_dev: ^2.16.0
+  riverpod_generator: ^2.4.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  # 测试
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
