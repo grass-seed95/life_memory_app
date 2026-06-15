@@ -13,7 +13,7 @@ class Photos extends Table {
 class Albums extends Table {
   IntColumn get id => integer().autoIncrement()();
   TextColumn get name => text()();
-  IntColumn get coverPhotoId => integer().named('cover_photo_id').nullable().references(Photos, #id)();
+  IntColumn get coverPhotoId => integer().named('cover_photo_id').nullable()();
   DateTimeColumn get createdAt => dateTime().named('created_at').withDefault(currentDateAndTime)();
 }
 

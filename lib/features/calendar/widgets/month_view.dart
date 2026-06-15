@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../providers/event_provider.dart';
 import '../../../core/lunar/lunar_service.dart';
+import '../../../core/database/database.dart';
 
 class MonthView extends StatelessWidget {
   final DateTime selectedMonth;

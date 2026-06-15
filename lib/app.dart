@@ -49,7 +49,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
           );
         },
         branches: [
-          StatefulNavigationBranch(
+          StatefulShellBranch(
             navigatorKey: _photosNavigatorKey,
             routes: [
               GoRoute(
@@ -83,7 +83,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               ),
             ],
           ),
-          StatefulNavigationBranch(
+          StatefulShellBranch(
             navigatorKey: _calendarNavigatorKey,
             routes: [
               GoRoute(
@@ -113,7 +113,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               ),
             ],
           ),
-          StatefulNavigationBranch(
+          StatefulShellBranch(
             navigatorKey: _wardrobeNavigatorKey,
             routes: [
               GoRoute(
